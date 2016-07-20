@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Para no olvidarse del peru">
+	<meta name="keywords" content="Productos, chifles, queso, yogurt, rosquitas, majar blanco">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/flexboxgrid.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<title>Inicio</title>
+
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.slides.js"></script>
+	<script>
+		$(function(){
+		  	$(".slideshow").slidesjs({
+		  		height: 300, navigation: false,
+		    	play: {
+			      active: true,
+			      effect: "slide",
+			      interval: 4000,
+			      auto: true,
+			      swap: true,
+			      pauseOnHover: false,
+			      restartDelay: 2500
+		    	}	
+		  	});
+		});
+	</script>
+
+</head>
+
+<body>
+<!-- CABECERA -->
+	<header>
+		<div class="container">
+			<div class="row middle-xs">
+			<!-- LOGOTIPO -->
+				<div class="col-xs-4">
+					<div class="logo">
+						<h2><a class="inti" href="#">INTI</a><a class="almacen" href="#">Almacen</a></h2>
+					</div>
+				</div>
+			<!-- LOGIN Y CARRITO DE COMPRAS -->
+				<div class="col-xs-7 end-xs">
+					<a class="acceso" href="#">Acceder</a>
+					<a class="carrito" href="#">Carrito</a>
+				</div>
+			</div>
+		</div>
+		<!-- MENU -->
+		<div class="menu">
+			<div class="container">
+				<div class="row end-xs">
+					<div class="col-xs-12">
+						<a href="#">Inicio</a>
+						<a href="#">Tienda</a>
+						<a href="#">Ofertas</a>
+						<a href="#">Servicio al Cliente</a>
+						<a href="#">Contactenos</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+<!-- CUERPO PRINCIPAL -->
+	<div class="slideshow">
+			<img src="img/slide/slide1.jpg">
+			<img src="img/slide/slide2.jpg">
+			<a href="#" class="slidesjs-previous slidesjs-navigation"><span class="icon-chevron-thin-left"></span></a>
+      		<a href="#" class="slidesjs-next slidesjs-navigation"><span class="icon-chevron-thin-right"></span></a>
+    </div>
+
+    <div class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-10">
+					<div class="row">
+						<div class="of col-xs-6 col-sm-4 col-md-3">
+							<img src="img/pisco-oferta.jpg">
+						</div>
+						<div class="of col-xs-6 col-sm-4 col-md-3">
+							<img src="img/chifles.jpg">
+						</div>
+						<div class="of col-xs-6 col-sm-4 col-md-3">
+							<img src="img/cafe.jpg">
+						</div>
+						<div class="of col-xs-6 col-sm-4 col-md-3">
+							<img src="img/cerv-cuzq.jpg">
+						</div>
+						<div class="of col-xs-6 col-sm-4 col-md-3">
+							<img src="img/king-kong.jpg">
+						</div>
+						<div class="of col-xs-6 col-sm-4 col-md-3">
+							<img src="img/cata.jpg">
+						</div>
+					</div>
+				</div>
+
+				<div class="publi col-xs-2">
+					<img src="img/gloria.jpg">
+					<img src="img/cusquena.jpg">
+					<img src="img/santi-queirolo.jpg">
+					<img src="img/cafe-logo.png">
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- PIE DE PAGINA -->
+	<footer>
+		<div class="container">
+			<div class="row around-xs">
+				<div class="pie col-xs-3">
+					<h2>Servicio al Cliente</h2>
+						<div class="pie-nav">
+							<a href="#">Forma de Pago</a>
+							<a href="#">Despacho</a>
+							<a href="#">Devoluciones</a>
+							<a href="#">Politicas de Venta</a>
+						</div>
+				</div>
+				<div class="pie col-xs-2">
+					<h2>e-mail</h2>
+					<h3>ventas@intialmacen.pe</h3>
+					<h3>contactos@intialmacen.pe</h3>
+				</div>
+				<div class="pie col-xs-2">
+					<h2>Telefonos</h2>
+					<h3>Ventas: 999551919</h3>
+					<h3>A. CLiente: 999551919</h3>
+
+				</div>
+				<div class="pie col-xs-3 center-xs">
+					<h2>Redes Sociales</h2>
+					<img src="img/redes.jpg">
+
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html> 

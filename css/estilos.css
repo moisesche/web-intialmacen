@@ -1,0 +1,144 @@
+@import url('reset.css');
+@import url('fuentes.css');
+
+/*===== GENERALES =====*/
+body {
+	/*background: #22AE6D;*/
+	font-family: arial,helvetica,sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+a:hover{ text-decoration: none; }
+
+/*===== CABECERA =====*/
+.logo {
+	margin: 10px 5px;
+}
+.inti {
+	font-family: sourcesans-light;
+	font-size: 45px;
+	font-weight: bold;
+}
+.almacen {
+	font-family: sourcesans-light;
+	font-size: 25px;
+	font-weight: bold;
+}
+/*---------------------*/
+.acceso {
+	color: #828282;
+	border-right: 1px solid #828282;
+	padding: 5px 15px;
+}
+.acceso:hover {
+	color: #000;
+}
+.carrito {
+	color: #828282;
+	padding: 5px 15px;
+}
+.carrito:hover {
+	color: #000;
+}
+/*---------------------*/
+.menu {
+	background: #FEDE11;
+}
+.menu a {
+	font-family: sourcesans-regular;
+	font-size: 20px;
+	padding: 10px 15px;
+	display: inline-block;
+}
+.menu a:hover {
+	color: #0E4D82;
+}
+
+
+/*===== SLIDESHOW =====*/
+.slideshow {
+	background: #0E4D82;
+}
+.slidesjs-pagination {
+	float: right;
+	list-style: none;
+	overflow: hidden;
+}
+.slidesjs-pagination li {
+	float: left;
+}
+.slidesjs-pagination li a {
+	display: block;
+	padding: 5px 7px;
+	color: #fff;
+	font-size: 12px;
+	margin-top: 5px;
+}
+.slidesjs-pagination li a:hover {
+	background: orange;
+}
+.slidesjs-pagination li a.active {
+	background: orange;
+}
+
+.slidesjs-navigation {
+    font-size: 12px;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 2px;
+    float: left;
+}
+
+/*===== MAIN O PRINCIPAL =====*/
+.main {
+	margin-top: 20px;
+}
+
+.of {
+	margin-bottom: 20px;
+
+}
+.of img { 
+	width: 100%;
+	vertical-align: top;
+}
+
+.publi {
+	width: 100%;
+	background: #ccc;
+	padding-top: 10px;
+	margin-bottom: 20px;
+
+}
+.publi img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+
+
+/*===== PIE DE PAGINA =====*/
+footer {
+	background: #0E4D82;
+	padding: 20px 0;
+}
+.pie-nav a {
+	display: block;
+	text-align: left;
+	color: #fff;
+}
+
+.pie  {
+	color: #fff;
+}
+.pie h2 {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.pie h3 {
+	text-align: left;
+	margin-bottom: 5px;
+	
+}
